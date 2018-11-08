@@ -1,9 +1,12 @@
-# Wordpress
-Wordpress + AppDynamics + Docke
+# Wordpress + AppDynamics + Docker
 
 Example of how to add AppDynamics PHP Agent to a Wordpress Apache container
 
-Download and rename the PHP agent to appdynamics.tar.bz2
+## Getting Started
+* [AppDynamics](https://download.appdynamics.com) - Download and rename the PHP agent to 
+```
+appdynamics.tar.bz2
+```
 
 Set the AppDynamics values, in docker-compose.yml. (Account, Tier, Application, Access Key, Controller, Controller Port)
 
